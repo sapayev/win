@@ -7,7 +7,7 @@ export default {
         return Promise.resolve();
     },
     // called when the user clicks on the logout button
-    logout: () => {
+    logout: () => {node -v
         localStorage.removeItem('username');
         return Promise.resolve();
     },
